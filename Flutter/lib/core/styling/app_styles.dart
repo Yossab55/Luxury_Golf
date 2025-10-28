@@ -5,7 +5,7 @@ import 'app_colors.dart';
 
 class AppTextStyles {
   static TextStyle primaryTextStyle = TextStyle(
-    color: AppColors.mainTextColor,
+    color: AppColors.black,
     fontWeight: FontWeight.w700,
     fontSize: 14.sp,
   );
@@ -17,7 +17,7 @@ class AppTextStyles {
   );
 
   static TextStyle textFeildLable = TextStyle(
-    color: AppColors.mainTextColor,
+    color: AppColors.black,
     fontWeight: FontWeight.w300,
     fontSize: 12.sp,
   );
@@ -35,7 +35,7 @@ class AppTextStyles {
   );
 
   static TextStyle black11Bold = TextStyle(
-    color: AppColors.mainTextColor,
+    color: AppColors.black,
     fontWeight: FontWeight.w700,
     fontSize: 14.sp,
   );
