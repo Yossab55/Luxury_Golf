@@ -7,7 +7,7 @@ import 'app_styles.dart';
 class AppThemes {
   static ThemeData lightTheme = ThemeData(
     fontFamily: AppFonts.mainFont,
-    scaffoldBackgroundColor: AppColors.,
+    scaffoldBackgroundColor: AppColors.blueE7F,
     textTheme: TextTheme(
       titleLarge: AppTextStyles.primaryTextStyle,
       titleSmall: AppTextStyles.subTextStyle,

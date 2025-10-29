@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:luxury_golf_app/core/styling/app_styles.dart';
 
 class GetStartedScreen extends StatelessWidget {
   const GetStartedScreen({super.key});
@@ -11,6 +12,22 @@ class GetStartedScreen extends StatelessWidget {
       extendBodyBehindAppBar: true,
       body: Stack(
         children: [
+          Positioned(
+            top: 52.h,
+            left: 41.5.w,
+            child: Text(
+              'Wheels on \nDemand',
+              style: AppTextStyles.headLineText,
+            ),
+          ),
+          Positioned(
+            top: 156.h,
+            left: 41.5.w,
+            child: Text(
+              'Reliable partners for renting, maintenance, \nand selling Golf cars',
+              style: AppTextStyles.subBlueText,
+            ),
+          ),
           Positioned(
             top: 200.h,
             child: Image.asset(
@@ -37,12 +54,13 @@ class GetStartedScreen extends StatelessWidget {
               height: 162.h,
             ),
           ),
-          // Positioned(
-          //   top: 645.h,
-          //   left: 50.w,
-          //   child: Text('Get Started' , style: TextStyle(f),),
-
-          // ),
+          Positioned(
+            top: 645.h,
+            left: 50.w,
+            child: InkWell(
+              child: Text('Get \nStarted', style: AppTextStyles.getStartedTex),
+            ),
+          ),
         ],
       ),
     );

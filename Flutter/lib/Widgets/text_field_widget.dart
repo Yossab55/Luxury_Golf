@@ -38,14 +38,14 @@ class TextFieldWidget extends StatelessWidget {
               labelText: labelText,
               floatingLabelBehavior: FloatingLabelBehavior.never,
 
-              focusColor: AppColors.textFieldBorderColor,
+              focusColor: AppColors.blueDBE,
               fillColor: Colors.red,
               border: OutlineInputBorder(),
               focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: AppColors.textFieldBorderColor),
+                borderSide: BorderSide(color: AppColors.blueBED),
               ),
               enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: AppColors.textFieldBorderColor),
+                borderSide: BorderSide(color: AppColors.green008),
               ),
               contentPadding: EdgeInsets.all(0.r),
               prefixIcon: Icon(prefixIcon),
