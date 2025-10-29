@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:luxury_golf_app/Screens/get_started_screen.dart';
+import 'package:luxury_golf_app/Screens/home_screen.dart';
 import 'package:luxury_golf_app/Widgets/buttom_widget.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:luxury_golf_app/Widgets/spacing_widget.dart';
@@ -48,6 +49,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return GetStartedScreen();
+    return HomeScreen();
   }
 }

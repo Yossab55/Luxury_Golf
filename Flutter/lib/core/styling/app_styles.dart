@@ -4,12 +4,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'app_colors.dart';
 
 class AppTextStyles {
-  
-
-
-
-
-
   static TextStyle blue0A9w600s28 = TextStyle(
     color: AppColors.blue0A9,
     fontWeight: FontWeight.w600,
